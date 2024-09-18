@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "build": "tailwindcss -i .css"
+   "build": "tailwindcss -i ./css/input.css -o ./dist/output.css",
+
+   "watch": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
