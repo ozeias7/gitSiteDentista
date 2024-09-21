@@ -27,7 +27,18 @@ module.exports = {
       fontFamily:{
       primary: 'Poppins'
       },
-      
+      boxShadow: {
+        custom1: '0px 2px 40px 0px rgba(8, 70, 78, 0.08 )',
+        custom2: '0px 0px 30px 0px rgba(8, 73, 81, 0.06 )',
+      },
+      backgroundImage: {
+        services: 'url(../../assets/img/services/bg.svg)',
+        testimonials: 'url(../../assets/img/testimonials/bg.svg)',
+        departments: 'url(../../assets/img/departments/bg.svg)',
+        quoteLeft: 'url(../../assets/icons/testimonials/quote-left.svg)',
+        quoteRight: 'url(../../assets/icons/testimonials/quote-right.svg)',
+
+      }
     },
   },
   plugins: [],
